@@ -1,0 +1,47 @@
+.sc_player_container1 {
+display: inline;
+}
+.sc_player_container1 .myButton_play {
+background: transparent url(../image/play-btn.png) no-repeat !important;
+cursor: pointer !important;
+width: 149px !important;
+height: 26px !important;
+border: none !important;
+position: relative;
+margin: 0 !important;
+padding: 0 !important;
+}
+.sc_player_container1 .myButton_stop {
+background: none ;
+cursor: pointer !important;
+width: 149px !important;
+height: 26px !important;
+border: none !important;
+position: relative;
+margin: 0 !important;
+padding: 0 !important;
+display: none;
+}
+
+.sc_player_container2 {
+max-width:205px;
+}
+.sc_player_container2 .myButton_play {
+background:url(../image/stop-play.html) no-repeat;
+background-position: -30px -30px;
+cursor:pointer;
+width: 149px;
+height: 26px;
+border: none;
+position:relative;
+}
+.sc_player_container2 .myButton_stop {
+background:url(../image/stop-play.html) no-repeat;
+background-position: -31px -90px;
+cursor:pointer;
+width: 149px;
+height: 26px;
+border: none;
+position:relative;
+display: none;
+}
